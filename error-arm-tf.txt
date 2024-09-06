@@ -1,0 +1,6 @@
+lib/psci/psci_common.c: In function 'psci_do_state_coordination':
+lib/psci/psci_common.c:199:27: error: array subscript is above array bounds [-Werror=array-bounds]
+  psci_req_local_pwr_states[pwrlvl - 1][cpu_idx] = req_pwr_state;
+  ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+cc1: all warnings being treated as errors
+make: *** [build/zynqmp/release/bl31/psci_common.o] Error 1

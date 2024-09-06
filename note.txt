@@ -1,0 +1,21 @@
+tools:
+- https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/gcc-linaro-7.4.1-2019.02-i686_aarch64-linux-gnu.tar.xz
+
+
+u-boot
+- u-boot-xlnx v2018.2
+- cannot build with vivado 2016.3's toolchain
+
+linux
+- ?
+- CAN build with vivado 2016.3's toolchain 
+
+
+docker
+- cd docker; ./build.sh; ./run.sh
+
+
+changes.
+- tee: optee/optee_os/core/tee/tee_embassy.c: tee interface
+
+android build on anna: 1h 10m

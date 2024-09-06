@@ -1,0 +1,8 @@
+.missing-syscalls.d
+.tmp_vmlinux1
+.tmp_vmlinux2
+arch/arm64/kernel/asm-offsets.s
+kernel/bounds.s
+scripts/mod/devicetable-offsets.s
+usr/.initramfs_data.cpio.d
+vmlinux

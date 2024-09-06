@@ -1,0 +1,141 @@
+/*
+ * dts file for Xilinx ZynqMP ZCU102 RevB with iVeia Ozzy FMC
+ *
+ * (C) Copyright 2016, iVeia, Inc.
+ * (C) Copyright 2016, Mentor Graphics, Inc.
+ *
+ * Alexey Firago <alexey_firago@mentor.com>
+ * Nicusor Huhulea <Nicusor_Huhulea@mentor.com>
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of
+ * the License, or (at your option) any later version.
+ */
+
+#include "zynqmp-zcu102-revB.dts"
+
+/ {
+	model = "ZynqMP ZCU102 RevB Ozzy";
+
+	chosen {
+		#address-cells = <2>;
+		#size-cells = <2>;
+		ranges;
+		framebuffer0: framebuffer@7f000000 {
+			compatible = "simple-framebuffer";
+			reg = <0x0 0x7f000000 0x0 0x1000000>;
+			width = <800>;
+			height = <480>;
+			stride = <(800 * 2)>;
+			format = "r5g6b5";
+		};
+	};
+
+	memory {
+		device_type = "memory";
+		reg = <0x0 0x0 0x0 0x7f000000>, <0x8 0x00000000 0x0 0x80000000>;
+	};
+
+	regulators {
+		compatible = "simple-bus";
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		wl12xx_vmmc: regulator@0 {
+			compatible = "regulator-fixed";
+			reg = <0>;
+			regulator-name = "wlan-en";
+			regulator-min-microvolt = <1800000>;
+			regulator-max-microvolt = <1800000>;
+			gpio = <&ozzy_gpio 0 0>;
+			startup-delay-us = <70000>;
+			enable-active-high;
+		};
+	};
+
+	amba: amba {
+		i2c4: i2c@80010000 {
+			compatible = "xlnx,xps-iic-2.00.a";
+			interrupt-parent = <&gic>;
+			interrupts = <0 90 2>;
+			reg = <0x0 0x80010000 0x1000>;
+			xlnx,clk-freq = <0x5f5e100>;
+			xlnx,gpo-width = <0x1>;
+			xlnx,iic-freq = <0x186a0>;
+			xlnx,scl-inertial-delay = <0x0>;
+			xlnx,sda-inertial-delay = <0x0>;
+			xlnx,ten-bit-adr = <0x0>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			ozzy_gpio: gpio@70 {
+				compatible = "nxp,pca9538";
+				reg = <0x70>;
+				gpio-controller;
+				#gpio-cells = <2>;
+
+				i2c_sel0 {
+					gpio-hog;
+					gpios = <4 0>;
+					output-high;
+					line-name = "lcden";
+				};
+			};
+		};
+
+		i2c3: i2c@80000000 {
+			compatible = "xlnx,xps-iic-2.00.a";
+			interrupt-parent = <&gic>;
+			interrupts = <0 89 2>;
+			reg = <0x0 0x80000000 0x1000>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+			tsp@4a {
+				compatible = "atmel,maxtouch";
+				#address-cells = <1>;
+				#size-cells = <0>;
+				reg = <0x4a>;
+				interrupt-parent = <&gic>;
+				interrupts = <0 91 4>;
+				atmel,irq-flags = <0>;
+			};
+		};
+	};
+};
+
+&i2c1 {
+	i2cswitch@75 {
+		i2c@0 {
+			eeprom@50 {
+				compatible = "at24,24c32";
+				reg = <0x50>;
+				pagesize = <32>;
+			};
+
+			adau1761@38 {
+				compatible = "adi,adau1761";
+				reg = <0x38>;
+			};
+
+		};
+	};
+};
+
+&sdhci0 {
+	status = "okay";
+	vmmc-supply = <&wl12xx_vmmc>;
+	bus-width = <4>;
+	cap-power-off-card;
+	keep-power-in-suspend;
+
+	#address-cells = <1>;
+	#size-cells = <0>;
+	wlcore: wlcore@2 {
+		compatible = "ti,wl1271";
+		reg = <2>;
+		interrupt-parent = <&gic>;
+		interrupts = <0 92 4>;
+		ref-clock-frequency = <38400000>;
+	};
+};

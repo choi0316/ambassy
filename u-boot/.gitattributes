@@ -1,0 +1,16 @@
+api filter=lfs diff=lfs merge=lfs -crlf
+board filter=lfs diff=lfs merge=lfs -crlf
+cmd filter=lfs diff=lfs merge=lfs -crlf
+common filter=lfs diff=lfs merge=lfs -crlf
+config.mk filter=lfs diff=lfs merge=lfs -crlf
+configs filter=lfs diff=lfs merge=lfs -crlf
+disk filter=lfs diff=lfs merge=lfs -crlf
+doc filter=lfs diff=lfs merge=lfs -crlf
+dts filter=lfs diff=lfs merge=lfs -crlf
+env filter=lfs diff=lfs merge=lfs -crlf
+examples filter=lfs diff=lfs merge=lfs -crlf
+Licenses filter=lfs diff=lfs merge=lfs -crlf
+post filter=lfs diff=lfs merge=lfs -crlf
+snapshot.commit filter=lfs diff=lfs merge=lfs -crlf
+spl filter=lfs diff=lfs merge=lfs -crlf
+test filter=lfs diff=lfs merge=lfs -crlf

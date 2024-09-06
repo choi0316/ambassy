@@ -1,0 +1,655 @@
+  GEN     out/arm-plat-zynqmp/core/ta_pub_key.c
+  CHK     out/arm-plat-zynqmp/conf.mk
+  GEN     out/arm-plat-zynqmp/ta_arm32-lib/libutee/tui/default_bold.c
+  GEN     out/arm-plat-zynqmp/ta_arm32-lib/libutee/tui/default_regular.c
+  GEN     out/arm-plat-zynqmp/ta_arm64-lib/libutee/tui/default_bold.c
+  GEN     out/arm-plat-zynqmp/ta_arm64-lib/libutee/tui/default_regular.c
+  UPD     out/arm-plat-zynqmp/conf.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/mk/compile.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/mk/subdir.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/mk/gcc.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/mk/cleandirs.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/mk/link.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/mk/ta_dev_kit.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/inttypes.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/wchar.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/memory.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/setjmp.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/stdint.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/sys/queue.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/sys/cdefs.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/sys/types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/malloc.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/ctype.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/time.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/stdlib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/signal.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/string.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/stdio.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/limits.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/assert.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/unistd.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/trace.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/atomic.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/string_ext.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/compiler.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/printk.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/util.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/bitstring.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/types_ext.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/trace_levels.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/zlib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/zconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/pngconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/pnglibconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/png.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/mpalib_config.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/mpalib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/mpa.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_internal_api_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_api_types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_internal_se_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/utee_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/pta_benchmark.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/utee_types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/utee_syscalls.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/pta_invoke_tests.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_api_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/pta_gprof.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_embassy_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/__tee_tcpsocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/__tee_udpsocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_internal_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/__tee_tcpsocket_defines_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_syscall_numbers.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/__tee_ipsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_arith_internal.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/user_ta_header.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_ta_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/pta_socket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/__tee_isocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_isocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_api_defines_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_tcpsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/include/tee_udpsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/zlib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/zconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/pngconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/pnglibconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/png.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/mpalib_config.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/mpalib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/mpa.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_internal_api_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_api_types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/utee_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_internal_se_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/pta_benchmark.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/utee_types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/utee_syscalls.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/pta_invoke_tests.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_api_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/pta_gprof.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_embassy_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/__tee_tcpsocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_internal_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/__tee_udpsocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/__tee_tcpsocket_defines_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_syscall_numbers.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/__tee_ipsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_arith_internal.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/user_ta_header.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/pta_socket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_ta_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/__tee_isocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_isocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_api_defines_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_udpsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_tcpsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/compiler.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/util.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/types_ext.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/conf.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/tee_fs_key_manager.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/fs_htree.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/signed_hdr.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/src/ta.ld.S
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/src/user_ta_header.c
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/keys/default_ta.pem
+  GEN     out/arm-plat-zynqmp/export-ta_arm32/mk/conf.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/scripts/sign.py
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/mk/compile.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/mk/subdir.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/mk/gcc.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/mk/cleandirs.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/mk/ta_dev_kit.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/mk/link.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/inttypes.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/wchar.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/memory.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/setjmp.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/stdint.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/sys/queue.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/sys/cdefs.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/sys/types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/malloc.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/ctype.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/stdlib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/time.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/signal.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/string.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/stdio.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/limits.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/assert.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/unistd.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/trace.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/atomic.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/string_ext.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/printk.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/compiler.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/bitstring.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/util.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/types_ext.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/trace_levels.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/zlib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/zconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/pngconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/pnglibconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/png.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/mpalib_config.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/mpa.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/mpalib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_internal_api_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_api_types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/utee_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_internal_se_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/pta_benchmark.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/utee_types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/utee_syscalls.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/pta_invoke_tests.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_api_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_embassy_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/pta_gprof.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/__tee_tcpsocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_internal_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/__tee_udpsocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/__tee_tcpsocket_defines_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_syscall_numbers.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/__tee_ipsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/user_ta_header.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_arith_internal.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/pta_socket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_ta_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/__tee_isocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_isocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_api_defines_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_tcpsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/include/tee_udpsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/zlib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/zconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/pngconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/pnglibconf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/png.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/mpalib_config.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/mpalib.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/mpa.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_internal_api_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_api_types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/utee_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_internal_se_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/pta_benchmark.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/utee_syscalls.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/utee_types.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/pta_invoke_tests.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_api_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/pta_gprof.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_embassy_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/__tee_tcpsocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_internal_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/__tee_udpsocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/__tee_tcpsocket_defines_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_syscall_numbers.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/__tee_ipsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_arith_internal.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/user_ta_header.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/pta_socket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_ta_api.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/__tee_isocket_defines.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_isocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_api_defines_extensions.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_tcpsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_udpsocket.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/compiler.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/util.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/types_ext.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/conf.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/tee_fs_key_manager.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/fs_htree.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/signed_hdr.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/src/user_ta_header.c
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/src/ta.ld.S
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/keys/default_ta.pem
+  GEN     out/arm-plat-zynqmp/export-ta_arm64/mk/conf.mk
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/scripts/sign.py
+  CHK     out/arm-plat-zynqmp/include/generated/conf.h
+  UPD     out/arm-plat-zynqmp/include/generated/conf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm32/host_include/conf.h
+  INSTALL out/arm-plat-zynqmp/export-ta_arm64/host_include/conf.h
+  CHK     out/arm-plat-zynqmp/core/include/generated/asm-defines.h
+  UPD     out/arm-plat-zynqmp/core/include/generated/asm-defines.h
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/user_ta.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/ree_fs_ta.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/pseudo_ta.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/elf_load.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/tee_time.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/otp_stubs.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/tee_time_arm_cntpct.o
+  AS      out/arm-plat-zynqmp/core/arch/arm/kernel/proc_a64.o
+  AS      out/arm-plat-zynqmp/core/arch/arm/kernel/spin_lock_a64.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/spin_lock_debug.o
+  AS      out/arm-plat-zynqmp/core/arch/arm/kernel/tlb_helpers_a64.o
+  AS      out/arm-plat-zynqmp/core/arch/arm/kernel/cache_helpers_a64.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/thread.o
+  AS      out/arm-plat-zynqmp/core/arch/arm/kernel/thread_a64.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/vfp.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/abort.o
+  AS      out/arm-plat-zynqmp/core/arch/arm/kernel/vfp_a64.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/trace_ext.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/mutex.o
+  AS      out/arm-plat-zynqmp/core/arch/arm/kernel/misc_a64.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/wait_queue.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/generic_boot.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/pm_stubs.o
+  AS      out/arm-plat-zynqmp/core/arch/arm/kernel/generic_entry_a64.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/unwind_arm64.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/unwind_arm32.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/mm/core_mmu.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/mm/core_mmu_lpae.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/mm/tee_mmu.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/mm/tee_mm.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/mm/pgt_cache.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/mm/mobj.o
+  AS      out/arm-plat-zynqmp/core/arch/arm/tee/arch_svc_a64.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/tee/arch_svc.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/tee/pta_socket.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/tee/entry_std.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/tee/entry_fast.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/tee/init.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/tee/cache.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/pta/pta_invoke_tests.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/pta/core_self_tests.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/pta/interrupt_tests.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/pta/core_fs_htree_tests.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/pta/stats.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/plat-zynqmp/main.o
+  CC      out/arm-plat-zynqmp/core/kernel/assert.o
+  CC      out/arm-plat-zynqmp/core/kernel/console.o
+  CC      out/arm-plat-zynqmp/core/kernel/msg_param.o
+  CC      out/arm-plat-zynqmp/core/kernel/tee_ta_manager.o
+  CC      out/arm-plat-zynqmp/core/kernel/tee_misc.o
+  CC      out/arm-plat-zynqmp/core/kernel/panic.o
+  CC      out/arm-plat-zynqmp/core/kernel/handle.o
+  CC      out/arm-plat-zynqmp/core/kernel/interrupt.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_cryp_utl.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_cryp_hkdf.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_cryp_concat_kdf.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_cryp_pbkdf2.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_svc.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_svc_cryp.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_svc_storage.o
+  CC      out/arm-plat-zynqmp/core/tee/fs_htree.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_ree_fs.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_fs_rpc.o
+  CC      out/arm-plat-zynqmp/core/tee/fs_dirfile.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_fs_rpc_cache.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_obj.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_pobj.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_fs_key_manager.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_pg.o
+  CC      out/arm-plat-zynqmp/core/tee/uuid.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_time_generic.o
+  CC      out/arm-plat-zynqmp/core/drivers/cdns_uart.o
+  CC      out/arm-plat-zynqmp/core/tee/tee_embassy.o
+  CC      out/arm-plat-zynqmp/core/drivers/hdlcd.o
+  CC      out/arm-plat-zynqmp/core/drivers/gic.o
+  CC      out/arm-plat-zynqmp/core/ta_pub_key.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mpa_desc.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/tee_ltc_provider.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/ciphers/aes_armv8a_ce.o
+  AS      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/ciphers/aes_modes_armv8a_ce_a64.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/ciphers/des.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/ccm/ccm_add_nonce.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/ccm/ccm_add_aad.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/ccm/ccm_init.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/ccm/ccm_process.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/gcm/gcm_add_iv.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/gcm/gcm_add_aad.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/ccm/ccm_done.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/gcm/gcm_gf_mult.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/gcm/gcm_done.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/gcm/gcm_init.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/ccm/ccm_reset.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/gcm/gcm_memory.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/gcm/gcm_mult_h.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/gcm/gcm_process.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/encauth/gcm/gcm_reset.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/md5.o
+  AS      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/sha1_armv8a_ce_a64.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/sha1_armv8a_ce.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/helper/hash_memory.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/helper/hash_memory_multi.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/sha2/sha256_armv8a_ce.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/sha2/sha224.o
+  AS      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/sha2/sha256_armv8a_ce_a64.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/sha2/sha512.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/hmac/hmac_memory.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/hashes/sha2/sha384.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/hmac/hmac_memory_multi.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/hmac/hmac_process.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/hmac/hmac_init.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/omac/omac_done.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/hmac/hmac_done.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/omac/omac_init.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/omac/omac_memory.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/omac/omac_process.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/mac/omac/omac_memory_multi.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/math/multi.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/math/rand_prime.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/math/rand_bn.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/math/fp/ltc_ecc_fp_mulmod.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/error_to_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/burn_stack.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/zeromem.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/base64/base64_decode.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_cipher_descriptor.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_find_cipher_any.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/base64/base64_encode.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_cipher_is_valid.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_find_hash_any.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_find_cipher.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_find_cipher_id.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_find_hash.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_find_hash_id.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_find_hash_oid.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_find_prng.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_fsa.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_hash_descriptor.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_prng_is_valid.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_prng_descriptor.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_register_cipher.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_hash_is_valid.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_register_hash.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_register_prng.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_unregister_cipher.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_unregister_hash.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/crypt/crypt_unregister_prng.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/pkcs5/pkcs_5_1.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/misc/pkcs5/pkcs_5_2.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/cbc/cbc_decrypt.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/cbc/cbc_done.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/cbc/cbc_encrypt.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/cbc/cbc_getiv.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/cbc/cbc_setiv.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/cbc/cbc_start.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ctr/ctr_decrypt.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ctr/ctr_done.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ctr/ctr_encrypt.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ctr/ctr_setiv.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ctr/ctr_getiv.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ctr/ctr_start.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ecb/ecb_decrypt.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ecb/ecb_encrypt.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ecb/ecb_done.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/xts/xts_decrypt.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/ecb/ecb_start.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/xts/xts_done.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/xts/xts_encrypt.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/xts/xts_init.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/modes/xts/xts_mult_x.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/bit/der_decode_bit_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/bit/der_encode_bit_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/bit/der_length_bit_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/bit/der_decode_raw_bit_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/boolean/der_decode_boolean.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/boolean/der_encode_boolean.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/bit/der_encode_raw_bit_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/boolean/der_length_boolean.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/choice/der_decode_choice.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/ia5/der_decode_ia5_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/ia5/der_encode_ia5_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/ia5/der_length_ia5_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/integer/der_decode_integer.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/integer/der_encode_integer.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/integer/der_length_integer.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/object_identifier/der_decode_object_identifier.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/object_identifier/der_encode_object_identifier.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/object_identifier/der_length_object_identifier.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/octet/der_decode_octet_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/octet/der_encode_octet_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/octet/der_length_octet_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/printable_string/der_decode_printable_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/printable_string/der_encode_printable_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/printable_string/der_length_printable_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/sequence/der_decode_sequence_ex.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/sequence/der_decode_sequence_flexi.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/sequence/der_decode_sequence_multi.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/sequence/der_encode_sequence_ex.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/sequence/der_encode_sequence_multi.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/sequence/der_length_sequence.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/sequence/der_sequence_free.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/sequence/der_decode_subject_public_key_info.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/sequence/der_encode_subject_public_key_info.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/set/der_encode_set.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/set/der_encode_setof.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/short_integer/der_encode_short_integer.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/short_integer/der_decode_short_integer.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/utctime/der_decode_utctime.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/short_integer/der_length_short_integer.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/utctime/der_length_utctime.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/utctime/der_encode_utctime.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/utf8/der_decode_utf8_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/utf8/der_encode_utf8_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/utf8/der_length_utf8_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/teletex_string/der_decode_teletex_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/asn1/der/teletex_string/der_length_teletex_string.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_encrypt_key.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_decrypt_key.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_export.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_free.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_import.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_make_key.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_shared_secret.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_sign_hash.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_verify_hash.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/pkcs1/pkcs_1_mgf1.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/pkcs1/pkcs_1_i2osp.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/pkcs1/pkcs_1_oaep_decode.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/pkcs1/pkcs_1_oaep_encode.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dsa/dsa_verify_key.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/pkcs1/pkcs_1_os2ip.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/pkcs1/pkcs_1_v1_5_encode.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/pkcs1/pkcs_1_pss_encode.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/rsa/rsa_export.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/pkcs1/pkcs_1_pss_decode.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/rsa/rsa_encrypt_key.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/pkcs1/pkcs_1_v1_5_decode.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/rsa/rsa_make_key.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/rsa/rsa_exptmod.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/rsa/rsa_free.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/rsa/rsa_decrypt_key.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/rsa/rsa_import.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/rsa/rsa_verify_hash.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/rsa/rsa_sign_hash.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/dh/dh.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ecc.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ecc_make_key.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ecc_free.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ecc_shared_secret.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ltc_ecc_is_valid_idx.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ecc_sign_hash.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ltc_ecc_map.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ecc_verify_hash.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ltc_ecc_mulmod_timing.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ltc_ecc_points.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ltc_ecc_mulmod.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ltc_ecc_projective_add_point.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ltc_ecc_mul2add.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/pk/ecc/ltc_ecc_projective_dbl_point.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/prngs/rng_get_bytes.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/prngs/rng_make_prng.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/prngs/sprng.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/prngs/rc4.o
+  CC      out/arm-plat-zynqmp/core/lib/libtomcrypt/src/prngs/fortuna.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_misc.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_montgomery.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_primetest.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_conv.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_div.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_mem_static.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_gcd.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_mul.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_shift.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_addsub.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_random.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_cmp.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_expmod.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_init.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_io.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/bget_malloc.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/malloc_lock.o
+  CC      out/arm-plat-zynqmp/core-lib/libmpa/mpa_modulus.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/snprintf.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/qsort.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/stack_check.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/strdup.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/strndup.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/memchr.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/memcmp.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/memcpy.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/memset.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/strcmp.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/strncmp.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/memmove.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/strlen.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/strnlen.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/strchr.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/isoc/newlib/abs.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/ext/snprintk.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/ext/buf_compare_ct.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/ext/strlcpy.o
+  AS      out/arm-plat-zynqmp/core-lib/libutils/isoc/arch/arm/setjmp_a64.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/ext/trace.o
+  CC      out/arm-plat-zynqmp/core-lib/libutils/ext/strlcat.o
+  CC      out/arm-plat-zynqmp/core/arch/arm/kernel/link_dummies.o
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_property.o
+  AS      out/arm-plat-zynqmp/core-lib/libutils/ext/arch/arm/atomic_a64.o
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_user_mem.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/abort.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/trace_ext.o
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/assert.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/base64.o
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_arith.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_objects.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_operations.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_se.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_panic.o
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_property.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_property.o] Error 1
+make: *** Waiting for unfinished jobs....
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_embassy.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_tcpudp_socket.o
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_user_mem.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_user_mem.o] Error 1
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/abort.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/abort.o] Error 1
+  CC      out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_socket_pta.o
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/assert.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/assert.o] Error 1
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb'
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/trace_ext.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/trace_ext.o] Error 1
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_arith.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_arith.o] Error 1
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mthumb-interwork'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/base64.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/base64.o] Error 1
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api.o] Error 1
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_operations.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_operations.o] Error 1
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_objects.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_objects.o] Error 1
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mno-unaligned-access'; did you mean '-Wno-aligned-new'?
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_se.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_se.o] Error 1
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_panic.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_panic.o] Error 1
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfloat-abi=hard'
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_embassy.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_api_embassy.o] Error 1
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_tcpudp_socket.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_tcpudp_socket.o] Error 1
+mk/compile.mk:146: recipe for target 'out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_socket_pta.o' failed
+make: *** [out/arm-plat-zynqmp/ta_arm32-lib/libutee/tee_socket_pta.o] Error 1
